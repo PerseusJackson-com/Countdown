@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // If the countdown is over, display a message
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("timer").innerHTML = "EXPIRED";
+            document.getElementById("timer").innerHTML = "The series is out";
         }
     }, 1000);
 });
