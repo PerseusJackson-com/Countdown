@@ -1,0 +1,50 @@
+/*Nav bar*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    text-decoration: underline;
+}
+  
+.navbar a.active {
+    font-weight: bold;
+}
+
+/*countdown*/
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown {
+    text-align: center;
+}
+
+#timer {
+    font-size: 2em;
+}
